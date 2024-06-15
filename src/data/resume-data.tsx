@@ -17,271 +17,165 @@ import {
   TastyCloudLogo,
   YearProgressLogo,
 } from "@/images/logos";
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { GitHubIcon, LinkedInIcon, XIcon, InstagramIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Liam Hess",
+  initials: "LH",
+  location: "Bonn, Germany, CET",
+  locationLink: "https://www.google.com/maps/place/Bonn",
   about:
-    "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
+    "Digital Product Manager & Designer.",
   summary:
-    "As a Full Stack Engineer, I specialize in taking products from concept to launch. I excel in leading teams and creating environments where individuals perform at their best. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience working remotely with companies worldwide.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "I'm a Product Manager & Designer. I have 2 years of product & project management experience, aswell as 4 years of design experience. During my time I worked together with multiple teams and clients across the globe, while living a nomadic lifestyle.",
+  avatarUrl: "https://avatars.githubusercontent.com/u/104833589?v=4",
+  personalWebsiteUrl: "https://traveldee.net",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "liam.s.d.hess@gmail.com",
+    tel: "",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/liamskydamien",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/liam-hess/",
         icon: LinkedInIcon,
-      },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "University of Applied Sciences Bonn-Rhein-Sieg (HBRS)",
+      degree: "Bachelor's Degree in Business Information Systems",
+      start: "2021",
+      end: "2024",
+    },
+    {
+      school: "Vietnamese German University (VGU)",
+      degree: "Exchange Semester",
+      start: "2023",
+      end: "2024",
     },
   ],
   work: [
     {
-      company: "Film.io",
-      link: "https://film.io",
+      company: "Zeiss Group",
+      link: "https://zeiss.com",
       badges: ["Remote"],
-      title: "Software Architect",
+      title: "App Management",
       logo: ConsultlyLogo,
-      start: "2024",
+      start: "2023",
       end: null,
       description:
-        "Leading the development of the Film.io platform. Technologies: React, TypeScript, Node.js",
+        "As an App Manager for Zeiss I supported the Team in various tasks: "
+        + "Managing the App Development Team, "
+        + "Designing the User Interface for the Zeiss Secacam App & Web-App, "
+        + "Managing the App Development Process, "
+        + "Took a leading role for various features and projects"
     },
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
+      company: "ZDH-Zert GmbH",
+      link: "https://zdh-zert.de",
+      badges: ["Hybrid"],
+      title: "Working Student: Projectmanagement & Marketing",
       logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      start: "2022",
+      end: "2023",
       description:
-        "Implemented new features, led a squad, improved code delivery process, and initiated migration from Emotion to Tailwind CSS. Technologies: React, TypeScript, GraphQL",
+        "As a working student at ZDH-Zert I supported the Team in various tasks: "
+      + "Supporting the Project-Manager integrating a new Software to automate the business processes, "
+      + "While also supporting the Marketing Department by managing and creating a new website for the company and managing the monthly newsletter."
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
+      company: "Freelancing / Selfemployed",
+      link: "",
       badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
+      title: "Webdesign & Development",
+      logo: ConsultlyLogo,
+      start: "2020",
+      end: "2022",
+      description:
+        "As a freelancing web-designer and developer I created websites for various clients. I created the websites using WordPress CMS."
+    },
+    {
+      company: "VenTrade GmbH",
+      link: "https://www.ventrade.de/",
+      badges: ["Hybrid"],
+      title: "Working Student: Customer Service",
       logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
+      start: "2020",
+      end: "2022",
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, and AAA. Built a live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Led the Android team and developed apps for major Polish companies like LOT, Polskie Radio, Agora, and PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Developed and tested software for LTE base stations",
+        "As a working student at VenTrade I supported the Customer Service Team. I took care of our customers via email and helped them with problems. I also created a smart ticket process in JIRA to make the process of returning cameras more efficient."
     },
   ],
   skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Product Management",
+    "Figma",
+    "UI/UX Design",
+    "Requirements Engineering",
+    "Programming (Java, React, TypeScript)"
   ],
   projects: [
     {
-      title: "Parabol",
+      title: "Zeiss Mobile-App",
       techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+        "Lead App-Designer",
+        "Feature-/Productowner",
       ],
       description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
+        "I designed the User Interface for the Zeiss Secacam App, based on the original Secacam App. I also took a leading role in the development of various features throughout the app.",
       logo: ParabolLogo,
       link: {
-        label: "github.com",
-        href: "https://parabol.co/",
+        label: "zeiss.com",
+        href: "https://play.google.com/store/apps/details?id=de.zeiss.cop.caledonia&hl=en_US",
       },
     },
     {
-      title: "Evercast",
+      title: "Zeiss Web-App",
       techStack: [
-        "Lead Frontend Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+        "Lead Designer",
+        "Productowner",
+        "Projectmanager",
+        "QA-Tester"
       ],
       description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
+        "I designed the the Zeiss Secacam Web-App. I also lead the development of the Web-App, managed the development process and worked together with a team of 4 highly skilled developers.",
       logo: EvercastLogo,
       link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
+        label: "zeiss.com",
+        href: "https://secacam-webapp.zeiss.com/",
       },
     },
     {
-      title: "Consultly",
+      title: "FreedomCalc",
       techStack: [
-        "Side Project",
+        "University Project",
         "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "Financial Planning",
+        "React",
+        "Tailwind CSS",
       ],
-      description: "A platform to build and grow your online business",
+      description: "A financial planning tool based on the concept of lifelines. Coded during my time at VGU. Received the best possible grade 1.0.",
       logo: ConsultlyLogo,
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "github.com",
+        href: "https://github.com/liamskydamien/freedom-calc",
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
+      title: "Aldavia",
+      techStack: ["University Project", "Java", "Springboot", "Vaadin"],
       description:
-        "Browser extension that records everything happening in a web application",
+        "During my time at HBRS I created together with 5 other students \"Aldavia\" a web-plattform for local companies to recrut students for internships, freelancing jobs and full-time positions.",
       logo: MonitoLogo,
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "Personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
         label: "github.com",
-        href: "https://jarocki.me/",
+        href: "https://github.com/liamskydamien/Aldavia",
       },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers, and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description: "Howdy is a place for joining communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
-    },
+    }
   ],
 } as const;
