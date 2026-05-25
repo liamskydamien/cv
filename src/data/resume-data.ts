@@ -9,9 +9,9 @@ export const RESUME_DATA: ResumeData = {
   summary:
     "Product Owner with 3+ years at ZEISS Group, shipping features to 200,000+ users across mobile and web. Grown from Designer to PO, I sit at the intersection of sharp UX, solid engineering, and a deep understanding of the people using the product. My background across business informatics, frontend development, and design lets me work fluently across disciplines — from roadmap to Figma to code. I've led cross-functional teams spanning 6+ countries, managed full product roadmaps, run user research, and still jump into Figma and code when it counts.",
   avatarUrl: "https://avatars.githubusercontent.com/u/104833589?v=4",
-  personalWebsiteUrl: "https://liamhess.com",
+  personalWebsiteUrl: "https://liamhess.dev",
   contact: {
-    email: "liam@liamhess.com",
+    email: "liam@liamhess.dev",
     tel: "",
     social: [
       {
