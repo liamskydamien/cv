@@ -3,8 +3,8 @@ import type { ResumeData } from "@/lib/types";
 export const RESUME_DATA: ResumeData = {
   name: "Liam Hess",
   initials: "LH",
-  location: "Cologne, Germany",
-  locationLink: "https://www.google.com/maps/place/Cologne",
+  location: "Bonn, Germany",
+  locationLink: "https://www.google.com/maps/place/Bonn",
   about: "Product Owner who thinks in products, designs in Figma, and builds with code.",
   summary:
     "Product Owner with 3+ years at ZEISS Group, shipping features to 200,000+ users across mobile and web. Grown from Designer to PO, I sit at the intersection of sharp UX, solid engineering, and a deep understanding of the people using the product. My background across business informatics, frontend development, and design lets me work fluently across disciplines — from roadmap to Figma to code. I've led cross-functional teams spanning 6+ countries, managed full product roadmaps, run user research, and still jump into Figma and code when it counts.",
@@ -12,7 +12,7 @@ export const RESUME_DATA: ResumeData = {
   personalWebsiteUrl: "https://liamhess.com",
   contact: {
     email: "liam@liamhess.com",
-    tel: "+49176213401",
+    tel: "",
     social: [
       {
         name: "GitHub",
